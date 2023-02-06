@@ -275,7 +275,7 @@ void Parser::sendData(clientInfo c_info) {
     }
     
     std::cout << header << std::endl;
-    std::cout << htmlBody << std::endl;
+    //std::cout << htmlBody << std::endl;
 
     // send response
     long bytesSent;
